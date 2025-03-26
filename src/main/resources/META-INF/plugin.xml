@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.kibettheophilus.buildlogicgeneratorideaplugin</id>
-    <name>build-logic-generator-idea-plugin</name>
+    <name>build-logic-generator</name>
     <vendor>kibettheophilus</vendor>
 
     <depends>com.intellij.modules.platform</depends>
