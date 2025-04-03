@@ -8,11 +8,14 @@
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.kibettheophilus.buildlogicgeneratorideaplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-    </extensions>
-
     <applicationListeners>
         <listener class="com.github.kibettheophilus.buildlogicgeneratorideaplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
+    <actions>
+        <action id="com.github.kibettheophilus.buildlogicgeneratorideaplugin.actions.CreateAction"
+            class="com.github.kibettheophilus.buildlogicgeneratorideaplugin.actions.CreateAction"
+            text="Build Logic Generator" description="A plugin to generate build logic">
+            <add-to-group group-id="FileMenu" anchor="first" />
+        </action>
+    </actions>
 </idea-plugin>
