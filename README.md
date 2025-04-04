@@ -8,7 +8,7 @@
 > The plugin is still in development, but it can generate a simple build-logic project.
 
 <!-- Plugin description -->
-This is a minimal IntelliJ Platform Plugin that helps generate build-logic.
+This is a minimal IntelliJ Platform Plugin that helps generate build-logic for gradle based projects.
 <!-- Plugin description end -->
 
 ## Installation
