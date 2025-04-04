@@ -17,6 +17,8 @@ https://github.com/user-attachments/assets/b5fe92f3-e4d4-4d2a-bc38-427663a58a5f
 <!-- Plugin description end -->
 
 ## Installation
+> [!NOTE]  
+> The plugin hasn't been published to marketplace.
 
 - Using the IDE built-in plugin system:
   
