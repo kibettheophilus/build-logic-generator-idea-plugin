@@ -83,7 +83,3 @@ class CreateAction : AnAction() {
         }
     }
 }
-
-// ask for project name from user, default populated should be build-logic
-// check if project with same name and show error
-//
