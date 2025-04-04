@@ -9,6 +9,11 @@
 
 <!-- Plugin description -->
 This is a minimal IntelliJ Platform Plugin that helps generate build-logic for gradle based projects.
+
+
+https://github.com/user-attachments/assets/b5fe92f3-e4d4-4d2a-bc38-427663a58a5f
+
+
 <!-- Plugin description end -->
 
 ## Installation
