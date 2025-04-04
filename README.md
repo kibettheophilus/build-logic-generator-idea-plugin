@@ -35,6 +35,25 @@ https://github.com/user-attachments/assets/b5fe92f3-e4d4-4d2a-bc38-427663a58a5f
   Download the [latest release](https://github.com/kibettheophilus/build-logic-generator-idea-plugin/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
+## Features
+- [x] Create build-logic
+   - [x] settings.gradle.kts
+   - [x] conventions directory
+      - [x] build.gradle.kts
+      - [x] src/main/kotlin
+      - [x] a sample plugin
+- [ ] Listen to progress and show to user
+- [ ] Dialog for more options
+   - [ ] user to input custom name, currently default is `build-logic`
+   - [ ] user selects convention plugins to be generated
+      - [ ] Android application
+      - [ ] Android library
+      - [ ] Kotlin Multiplatform library
+            
+            ...open for more ideas?
+
+## Contributing
+Your contributions are especially welcome. Whether it comes in the form of code patches, ideas, discussion, bug reports, encouragement or criticism, your input is needed.
 
 ---
 Plugin based on the [IntelliJ Platform Plugin Template][template].
