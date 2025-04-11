@@ -19,7 +19,7 @@ This is a minimal IntelliJ Platform Plugin that helps generate build-logic for g
 
 - Using the IDE built-in plugin system:
   
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "build-logic-generator-idea-plugin"</kbd> >
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Build Logic Generator"</kbd> >
   <kbd>Install</kbd>
   
 - Using JetBrains Marketplace:
