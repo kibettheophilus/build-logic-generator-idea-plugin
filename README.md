@@ -7,16 +7,15 @@
 > [!NOTE]  
 > The plugin is still in development, but it can generate a simple build-logic project.
 
+## Demo
+https://github.com/user-attachments/assets/b63f060e-ee93-4505-9ee5-338d9a797d91
+
 <!-- Plugin description -->
 This is a minimal IntelliJ Platform Plugin that helps generate build-logic for gradle based projects.
-
-https://github.com/user-attachments/assets/b63f060e-ee93-4505-9ee5-338d9a797d91
 
 <!-- Plugin description end -->
 
 ## Installation
-> [!NOTE]  
-> The plugin hasn't been published to marketplace.
 
 - Using the IDE built-in plugin system:
   
