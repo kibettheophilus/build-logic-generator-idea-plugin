@@ -64,7 +64,8 @@ class CreateAction : AnAction() {
                     }
 
                     dependencies {
-                        compileOnly("com.example.library")
+                        compileOnly("com.android.tools.build:gradle:8.7.0")
+                        compileOnly("org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.0")
                     }
                     gradlePlugin {
                         plugins {
