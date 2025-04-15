@@ -13,8 +13,8 @@ class CreateAction : AnAction() {
             val conventions = File(directory, "conventions")
             val conventionsDir = File(directory, "conventions/src/main/kotlin")
             conventionsDir.mkdirs()
-            val samplePlugin = File(conventionsDir,"AndroidApplicationConventionPlugin.kt")
-            if (samplePlugin.createNewFile()){
+            val samplePlugin = File(conventionsDir, "AndroidApplicationConventionPlugin.kt")
+            if (samplePlugin.createNewFile()) {
                 val sampleSetup = """
                     import org.gradle.api.Plugin
                     import org.gradle.api.Project
@@ -78,9 +78,31 @@ class CreateAction : AnAction() {
                 """.trimIndent()
 
                 conventionBuild.writeText(buildSetup)
+                modifySettings(currentProject?.basePath)
             }
         } else {
             println("failed to create path")
         }
+    }
+
+    private fun modifySettings(projectDir: String?) {
+        val files = File(projectDir, "settings.gradle.kts")
+        val original = files.readText()
+
+        val includeLine = """includeBuild("build-logic")"""
+
+        if (original.contains(includeLine)) {
+            return
+        }
+
+        val updated = original.replace(
+            "pluginManagement {",
+            """
+        pluginManagement {
+            $includeLine
+        """.trimIndent()
+        )
+
+        files.writeText(updated)
     }
 }
